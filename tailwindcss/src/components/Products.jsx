@@ -5,6 +5,7 @@ import hp from "../assets/hp.jpg";
 import accer from "../assets/accer.png";
 import zte from "../assets/zte.png";
 import pop4 from "../assets/pop4.jpg";
+import { NavLink } from "react-router-dom";
 function Products() {
   return (
     <section>
@@ -13,10 +14,9 @@ function Products() {
         <p className="text-xl mt-2 mb-7 max-sm:lg">
           Lorem ipsum dolor, sit amet consectetur adipisicing.
         </p>
-        <button className="text-lg border p-3 hover:bg-blue-950 rounded-lg text-slate-100 bg-blue-500">
-          
+        <NavLink to = '/about' className="text-lg border p-3 hover:bg-blue-950 rounded-lg text-slate-100 bg-blue-500">
           Know More
-        </button>
+        </NavLink>
       </section>
       <section className="my-3 mx-auto">
         <div className="flex justify-center flex-wrap">
