@@ -15,15 +15,45 @@ function UseFetch() {
     <div>
         <ul >
             {products.map((prod, index) => <li key={prod.id}>
-                <div>
-                    <img src= {prod.img} alt="" />
-                    <p>
-                        <span>{prod.name}</span>
-                        <span>{prod.description}</span>
-                        <span>{prod.price}</span>
-
-                    </p>
-                </div>
+                <section className="my-3 mx-auto">
+                        <div className="flex justify-center flex-wrap">
+                          <card className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
+                            <img className="rounded-md" src={prod.img} alt="" />
+                            <h1 className="text-2xl my-7">{prod.name}</h1>
+                            <p>
+                              {prod.description} </p>
+                            <p className='mt-2'> price: {prod.price}</p>
+                            </card>
+                            <card className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
+                            <img className="rounded-md" src={prod.img} alt="" />
+                            <h1 className="text-2xl my-7">{prod.name}</h1>
+                            <p>
+                              {prod.description} </p>
+                            <p className='mt-2'> price: {prod.price}</p>
+                            </card>
+                            <card className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
+                            <img className="rounded-md" src={prod.img} alt="" />
+                            <h1 className="text-2xl my-7">{prod.name}</h1>
+                            <p>
+                              {prod.description} </p>
+                            <p className='mt-2'> price: {prod.price}</p>
+                            </card>
+                            <card className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
+                            <img className="rounded-md" src={prod.img} alt="" />
+                            <h1 className="text-2xl my-7">{prod.name}</h1>
+                            <p>
+                              {prod.description} </p>
+                            <p className='mt-2'> price: {prod.price}</p>
+                            </card>
+                            <card className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
+                            <img className="rounded-md" src={prod.img} alt="" />
+                            <h1 className="text-2xl my-7">{prod.name}</h1>
+                            <p>
+                              {prod.description} </p>
+                            <p className='mt-2'> price: {prod.price}</p>
+                            </card>
+                          </div>
+                          </section>
            </li>)}
         </ul>
         

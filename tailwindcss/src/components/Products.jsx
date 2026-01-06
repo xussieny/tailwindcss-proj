@@ -14,7 +14,7 @@ function Products() {
         <p className="text-xl mt-2 mb-7 max-sm:lg">
           Lorem ipsum dolor, sit amet consectetur adipisicing.
         </p>
-        <NavLink to = '/about' className="text-lg border p-3 hover:bg-blue-950 rounded-lg text-slate-100 bg-blue-500">
+        <NavLink to = '/UseFetch' className="text-lg border p-3 hover:bg-blue-950 rounded-lg text-slate-100 bg-blue-500">
           Know More
         </NavLink>
       </section>
@@ -27,6 +27,7 @@ function Products() {
               Tablete Tab 10 12GB RAM 512GB ROM Tablets 10 inch Tablets Android
               11.0 NOTEBOOK LAPTOP dual sim TABLET 10 core Tablet android
             </p>
+            <p className="mt-2">price:</p>
           </div>
           <div className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
             <img className="rounded-md" src={epsone10} alt="" />
@@ -36,6 +37,8 @@ function Products() {
               lumens of white brightness. With SVGA resolution (800 x 600) and
               support for WXGA (1280 x 800) input.
             </p>
+            <p className="mt-2">price:</p>
+
           </div>
           <div className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
             <img className="rounded-md" src={hp} alt="" />
@@ -44,6 +47,8 @@ function Products() {
               Sophisticated, light-weight, multi-mode PCs ideal for mobile
               professional who want power and style.
             </p>
+            <p className="mt-2">price:</p>
+
           </div>
           <div className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
             <img className="rounded-md" src={accer} alt="" />
@@ -52,6 +57,8 @@ function Products() {
               most commonly refers to the Taiwanese technology company, though
               it is also the scientific genus name for maple trees.
             </p>
+            <p className="mt-2">price:</p>
+
           </div>
           <div className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
             <img className="rounded-md" src={zte} alt="" />
@@ -62,6 +69,8 @@ function Products() {
               up to 1200 Mbps, allowing users to surf the internet, watch videos
               and play online games
             </p>
+            <p className="mt-2">price:</p>
+
           </div>
           <div className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
             <img className="rounded-md" src={pop4} alt="" />
@@ -69,6 +78,8 @@ function Products() {
             <p>
               The is an entry-level smartphone released in July 2020. It is part of Tecno's budget-friendly "Pop" series, designed for basic functionality and long battery life. 
             </p>
+            <p className="mt-2">price:</p>
+
           </div>
         </div>
       </section>
