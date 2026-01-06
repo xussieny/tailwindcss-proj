@@ -10,15 +10,15 @@ function Products() {
     <section>
       <section className=" text-center my-10">
         <h1 className="text-4xl my-7">Lorem, ipsum dolor.</h1>
-        <p className="text-xl mt-2 mb-7">
+        <p className="text-xl mt-2 mb-7 max-sm:lg">
           Lorem ipsum dolor, sit amet consectetur adipisicing.
         </p>
         <button className="text-lg border p-3 hover:bg-blue-950 rounded-lg text-slate-100 bg-blue-500">
           
-          Know More{" "}
+          Know More
         </button>
       </section>
-      <section className="my-3">
+      <section className="my-3 mx-auto">
         <div className="flex justify-center flex-wrap">
           <div className="max-w-sm border rounded p-3 hover:cursor-pointer m-4">
             <img className="rounded-md" src={tablet} alt="" />
