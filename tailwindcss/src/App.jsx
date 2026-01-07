@@ -1,17 +1,28 @@
-import { useState } from 'react'
-import './App.css'
+import { StrictMode } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Products from './components/Products'
 import Footer from './components/Footer'
-// import User from './components/User'
+import About from './components/About'
+import Contact from './components/Contact'
+import UseFetch from './components/UseFetch'
 
 function App() {
-  return(
-    <div className='max-w-7xl m-auto'>
-    <Header />
-    <Products />
-    <Footer />
-  </div>
+  return (
+    <div className='pt-28 sm:pt-16 max-w-7xl my-auto mx-8'>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Products />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/UseFetch' element={<UseFetch />} />
+
+        </Routes>
+
+        <Footer />
+      </BrowserRouter>
+    </div>
   )
 }
 

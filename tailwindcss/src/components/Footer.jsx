@@ -15,11 +15,6 @@ function Footer() {
             </div>
           </div>
 
-          <nav aria-label="Footer navigation" className="flex gap-4">
-            <NavLink to="/" className="text-sm hover:text-slate-800">Home</NavLink>
-            <NavLink to="/about" className="text-sm hover:text-slate-800">About</NavLink>            <NavLink to="/contact" className="text-sm hover:text-slate-800">Contact</NavLink>
-          </nav>
-
           <div className="text-center md:text-right">
             <p className="text-sm">© 2026 Hussien Y</p>
             <p className="text-sm text-slate-500">Made with ❤️</p>
