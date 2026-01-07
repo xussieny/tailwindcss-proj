@@ -68,27 +68,27 @@ This will start the JSON server on `http://localhost:5000`
 ## 📁 Project Structure
 tailwindcss-proj/
 │
-└── tailwindcss/                      # Main project directory
+└── tailwindcss/ 
     │
-    ├── node_modules/                 # Dependencies (auto-generated)
+    ├── node_modules/
     │
-    ├── public/                       # Static assets served directly
+    ├── public/
     │
-    ├── src/                          # Source code
+    ├── src/
     │   │
-    │   ├── assets/                   # Static assets (images, data)
+    │   ├── assets/ 
     │   │   ├── data/
-    │   │   │   └── productData.json  # Product data for JSON server
-    │   │   ├── accer.png             # Product images
-    │   │   ├── epsone10.png
-    │   │   ├── hp.jpg
-    │   │   ├── loading.gif           # Loading indicator
-    │   │   ├── logo.jpg              # Brand logos
-    │   │   ├── logo.png
-    │   │   ├── logo.webp
-    │   │   ├── pop4.jpg
-    │   │   ├── tablet.jpg
-    │   │   └── zte.png
+    │   │   │_____ image └── productData.json
+    │   │         ├── accer.png
+    │   │         ├── epsone10.png
+    │   │         ├── hp.jpg
+    │   │         ├── loading.gif           # Loading indicator
+    │   │         ├── logo.jpg              # Brand logos
+    │   │         ├── logo.png
+    │   │         ├── logo.webp
+    │   │         ├── pop4.jpg
+    │   │         ├── tablet.jpg
+    │   │         └── zte.png
     │   │
     │   ├── components/  
     │   │   ├── About.jsx
