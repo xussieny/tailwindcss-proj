@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import loadingImg from '../assets/loading.gif'
+import loadingImg from '../assets/images/loading.gif'
 function UseFetch() {
     const [products, setproducts] = useState([]);
     const [loading, setLoading] = useState(false)

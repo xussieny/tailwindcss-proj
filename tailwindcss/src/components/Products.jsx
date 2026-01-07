@@ -1,10 +1,10 @@
 import React from "react";
-import tablet from "../assets/tablet.jpg";
-import epsone10 from "../assets/epsone10.png";
-import hp from "../assets/hp.jpg";
-import accer from "../assets/accer.png";
-import zte from "../assets/zte.png";
-import pop4 from "../assets/pop4.jpg";
+import tablet from "../assets/images/tablet.jpg";
+import epsone10 from "../assets/images/epsone10.png";
+import hp from "../assets/images/hp.jpg";
+import accer from "../assets/images/accer.png";
+import zte from "../assets/images/zte.png";
+import pop4 from "../assets/images/pop4.jpg";
 import { NavLink } from "react-router-dom";
 function Products() {
   return (
