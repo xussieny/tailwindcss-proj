@@ -90,27 +90,26 @@ tailwindcss-proj/
     │   │   ├── tablet.jpg
     │   │   └── zte.png
     │   │
-    │   ├── components/               # React components
-    │   │   ├── About.jsx             # About page
-    │   │   ├── Contact.jsx           # Contact page
-    │   │   ├── Footer.jsx            # Footer component
-    │   │   ├── Header.jsx            # Header with navigation & hamburger menu
-    │   │   ├── Home.jsx              # Home page
-    │   │   ├── Products.jsx          # Static products showcase
-    │   │   └── UseFetch.jsx          # Dynamic API products (with loading/error)
+    │   ├── components/  
+    │   │   ├── About.jsx
+    │   │   ├── Contact.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Header.jsx
+    │   │   ├── Home.jsx 
+    │   │   ├── Products.jsx
+    │   │   └── UseFetch.jsx 
     │   │
-    │   ├── App.css                   # App-specific styles
-    │   ├── App.jsx                   # Main App component with routes
-    │   ├── index.css                 # Global styles & Tailwind directives
-    │   └── main.jsx                  # React entry point
+    │   ├── App.css
+    │   ├── 
+    │   └── main.jsx 
     │
-    ├── eslint.config.js              # ESLint configuration
-    ├── index.html                    # HTML template
-    ├── package.json                  # Project dependencies & scripts
-    ├── package-lock.json             # Locked versions of dependencies
-    ├── README.md                     # Project documentation
-    ├── tailwind.config.cjs           # Tailwind CSS configuration
-    └── vite.config.js                # Vite bundler configuration
+    ├── eslint.config.js          
+    ├── package.json               
+    ├── package-lock.json           
+    ├── README.md         
+    ├── index.html
+    ├── tailwind.config.cjs  
+    └── vite.config.js       
 
 
 
