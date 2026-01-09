@@ -1,0 +1,44 @@
+{
+"products":
+[
+    {
+        "id":1001,
+        "img":"https://i5.walmartimages.com/seo/New-Bee-Bluetooth-Headset-W-Mic-Wireless-Earpiece-in-Ear-Business-Earbuds-for-iOS-Android-Cellphone_f9c54f54-2aeb-4ba9-9563-7bf5fb118d71.46949729d252691f04b4bcb85b8f2d21.jpeg",
+        "name":"wireless bluethooth",
+        "description":"New Bee Bluetooth 5.0 Wireless Earpiece Headset with Microphone for iPhone Android, 20H Talk Time 180D Standby, Hands-Free for Business Trucker Driver, Black",
+        "price":"ETB 5673"
+    },
+    
+    {
+        "id":1002,
+        "img":"https://pictures-ethiopia.jijistatic.com/9313867_MTIwMC0xNjAwLTRkYTM0YzYyOTg.webp",
+        "name":"9 Headphone",
+        "description":"New Bee Bluetooth 5.0 Wireless Earpiece Headset with Microphone for iPhone Android, 20H Talk Time 180D Standby, Hands-Free for Business Trucker Driver, Black",
+        "price":"ETB 1300"
+    },
+    
+    {
+        "id":1003,
+        "img":"https://pictures-ethiopia.jijistatic.com/9313868_MTIwMC0xNjAwLTQ2YjJjZGNiNDQ.webp",
+        "name":"Sony Wh-Ch520 Headset",
+        "description":"New Bee Bluetooth 5.0 Wireless Earpiece Headset with Microphone for iPhone Android, 20H Talk Time 180D Standby, Hands-Free for Business Trucker Driver, Black",
+        "price":"ETB 9000"
+    },
+    
+    {
+        "id":1001,
+        "img":"https://i5.walmartimages.com/seo/New-Bee-Bluetooth-Headset-W-Mic-Wireless-Earpiece-in-Ear-Business-Earbuds-for-iOS-Android-Cellphone_f9c54f54-2aeb-4ba9-9563-7bf5fb118d71.46949729d252691f04b4bcb85b8f2d21.jpeg",
+        "name":"wireless bluethooth",
+        "description":"New Bee Bluetooth 5.0 Wireless Earpiece Headset with Microphone for iPhone Android, 20H Talk Time 180D Standby, Hands-Free for Business Trucker Driver, Black",
+        "price":"ETB 5673"
+    },
+    
+    {
+        "id":1001,
+        "img":"https://i5.walmartimages.com/seo/New-Bee-Bluetooth-Headset-W-Mic-Wireless-Earpiece-in-Ear-Business-Earbuds-for-iOS-Android-Cellphone_f9c54f54-2aeb-4ba9-9563-7bf5fb118d71.46949729d252691f04b4bcb85b8f2d21.jpeg",
+        "name":"wireless bluethooth",
+        "description":"New Bee Bluetooth 5.0 Wireless Earpiece Headset with Microphone for iPhone Android, 20H Talk Time 180D Standby, Hands-Free for Business Trucker Driver, Black",
+        "price":"ETB 5673"
+    }
+]
+}
