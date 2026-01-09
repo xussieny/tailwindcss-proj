@@ -37,7 +37,7 @@ function UseFetch() {
             <img className="rounded-md" src={prod.img} alt={prod.name} />
             <h1 className="text-2xl my-7">{prod.name}</h1>
             <p>{prod.description}</p>
-            <p className='mt-2'>price: {prod.price}</p>
+           <p className="mt-2 text-bold text-green-700"> price: {prod.price}</p>
           </div>
         ))}
       </div>
