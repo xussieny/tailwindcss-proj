@@ -17,7 +17,7 @@ function Footer() {
 
           <div className="text-center md:text-right">
             <p className="text-sm">© 2026 Hussien Y</p>
-            <p className="text-sm text-slate-500">Made with ❤️</p>
+    
           </div>
         </div>
       </div>

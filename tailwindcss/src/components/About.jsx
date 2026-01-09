@@ -2,22 +2,43 @@ import React from "react";
 
 function About() {
   return (
-    <div className="h-screen space-y-11 ">
-      <h1> This is only for practice purpose</h1>
-      <p>
-      
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-        praesentium iusto alias repellendus facere tenetur dolor aspernatur
-        dolorem nulla ut, nostrum nemo voluptate sequi maxime possimus officiis
-        quisquam impedit harum voluptas quos. Necessitatibus repudiandae id,
-        deleniti minima fugit explicabo expedita. Facere quasi sunt voluptatum!
-        Reprehenderit ad molestiae nisi ipsum quibusdam.{" "}
-      </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maiores impedit ipsa quaerat! Reiciendis, quaerat magni alias nam omnis voluptatum laboriosam, consectetur, odio aperiam distinctio maxime sequi! Cum cupiditate assumenda quo tempore repellendus iste deleniti laborum asperiores similique veritatis voluptatem itaque hic soluta ex, quae exercitationem id iure sit. Et?</p>
-   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ipsum placeat delectus, ratione consequatur labore optio, accusamus voluptate repudiandae, nemo iure voluptatum qui molestias? Officia expedita ducimus error maiores nesciunt, sapiente numquam earum quasi soluta voluptatum ab quae fugit natus dolorem quo dolores praesentium doloremque dignissimos dolorum nulla eius, omnis architecto voluptates assumenda. Earum molestiae enim voluptatum velit odio laboriosam laborum ab inventore soluta tempora error in, saepe possimus distinctio aspernatur aut, sit deleniti sint praesentium libero provident et quod. Soluta libero, tempore culpa, harum tempora quaerat totam dicta dolorum quibusdam recusandae voluptate reprehenderit quis doloribus beatae, ratione velit dolorem.</p>
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <div className=" text-sky-500 py-16 px-8 text-center my-8">
+        <h1 className="text-5xl font-bold mb-4">Welcome to Our Tech Store</h1>
+        <p className="text-xl max-w-2xl mx-auto">
+          Your one-stop shop for laptops, tablets, and electronics in Addis Ababa
+        </p>
+      </div>
+
+      {/* Content */}
+      <div className="max-w-4xl mx-auto px-8 pb-12 space-y-8">
+        <div className="bg-white p-8 rounded-lg shadow-md border">
+          <h2 className="text-3xl font-semibold mb-6 text-center">Our Mission</h2>
+          <p className="text-gray-700 text-lg leading-relaxed text-center">
+            To provide accessible, reliable, and cutting-edge technology solutions that empower 
+            our customers to achieve more in their personal and professional lives.
+          </p>
+        </div>
+
+        <div className="bg-white p-8 rounded-lg shadow-md border">
+          <h2 className="text-2xl font-semibold mb-4">About Our Business</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            We specialize in bringing the latest electronics to the Ethiopian market. Our product 
+            range includes high-performance laptops from HP and Acer, versatile tablets, reliable 
+            Epson projectors for business presentations, advanced networking equipment from ZTE, 
+            and affordable smartphones from Tecno.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Every product in our store is carefully selected for quality and value. We work directly 
+            with authorized distributors to ensure authenticity and provide comprehensive warranty 
+            coverage. Our experienced team is passionate about technology and committed to helping 
+            you find the perfect solution for your needs.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
-
 
 export default About;
