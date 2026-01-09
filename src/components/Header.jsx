@@ -9,10 +9,8 @@ function Header() {
   const toggle = () => {
     setIsOpen(!isOpen);
   }
-   const style = (isActive) => ({
-  backgroundColor: isActive ? 'black' : 'green',
-  color: isActive ? 'white' : 'blue'
-})
+   const inactiveClass= "hover:bg-gray-300 hover:cursor-pointer rounded"
+   const activeClass= "bg-blue-300  text-white  rounded px-4"
   return (
     <>
       <div className="fixed mx-8 pr-2 top-0 left-0 right-0 z-50 bg-white h-28 sm:h-16 border-b shadow">
@@ -21,22 +19,22 @@ function Header() {
             <img className="w-12 p-2" src={logo} alt="logo" />
             <p className="ml-2 text-2xl">learn tailwindcss</p>
           </div>
-          <nav  style ={{style}} className=" md:flex gap-3 text-lg items-center max-sm:my-3 hidden">
+          <nav   className=" md:flex gap-3 text-lg items-center max-sm:my-3 hidden">
             <NavLink
-              to="/"
-              className="hover:bg-gray-300 hover:cursor-pointer rounded"
-            >
+              to="/" className={({isActive}) => isActive ? activeClass : inactiveClass}
+              >
               Home
             </NavLink>
+              
             <NavLink
-              to="/about"
-              className="hover:bg-gray-300 hover:cursor-pointer rounded"
-            >
+              to="/about"className={({isActive}) => isActive ? activeClass : inactiveClass}
+              >
               About
             </NavLink>
             <NavLink
-              to="/contact"
-              className="hover:bg-gray-300 hover:cursor-pointer rounded active:bg-amber-300"
+          
+              to="/contact" className={({isActive}) => isActive ? activeClass : inactiveClass}
+            
             >
               Contact
             </NavLink>

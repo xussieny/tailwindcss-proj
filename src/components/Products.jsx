@@ -11,8 +11,8 @@ function Products() {
   return (
     <section>
       <section className=" text-center my-10">
-        <h1 className="text-4xl my-7">Electronics products showcase</h1>
-        <p className="text-xl mt-2 mb-7 max-sm:lg">
+        <h1 className="text-4xl mt-7 pt-15">Electronics products showcase</h1>
+        <p className="text-xl mt-2 mb-7">
            Discover cutting-edge technology and premium electronics at competitive prices.
         </p>
         <NavLink to = '/UseFetch' className="text-lg border p-3 hover:bg-blue-950 rounded-lg text-slate-100 bg-blue-500">
