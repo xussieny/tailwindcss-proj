@@ -9,7 +9,7 @@ import UseFetch from './components/UseFetch'
 
 function App() {
   return (
-    <div>
+    
       <BrowserRouter>
         <Header />
         <Routes>
@@ -22,7 +22,7 @@ function App() {
 
         <Footer />
       </BrowserRouter>
-    </div>
+
   )
 }
 
