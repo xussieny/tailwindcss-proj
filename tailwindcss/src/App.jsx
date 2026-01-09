@@ -9,7 +9,7 @@ import UseFetch from './components/UseFetch'
 
 function App() {
   return (
-    <div className='pt-28 sm:pt-16 max-w-7xl my-auto mx-8'>
+    <div>
       <BrowserRouter>
         <Header />
         <Routes>
