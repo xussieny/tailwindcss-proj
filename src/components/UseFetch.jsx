@@ -25,7 +25,7 @@ function UseFetch() {
      }, [url])
   return (
     
-     <div className="container mx-auto p-6">
+     <div className="container mx-auto p-6 mt-14">
       <div className="flex justify-center flex-wrap">
         {error && <p className='text-red text-4xl font-mono'> {error}</p>}
         {loading && <img className='w-10 size-15 animate-accordion-down' src={loadingImg}/> }
@@ -39,9 +39,10 @@ function UseFetch() {
             <p>{prod.description}</p>
            <p className="mt-2 text-bold text-green-700">price: {prod.price}</p>
           </div>
-        ))}
-      </div>
-    </div>
+        )
+           )}
+        </div>
+      </div>  
   )
 }
 

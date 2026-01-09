@@ -9,7 +9,6 @@ import UseFetch from './components/UseFetch'
 
 function App() {
   return (
-
       <BrowserRouter>
         <Header />
         <Routes>
