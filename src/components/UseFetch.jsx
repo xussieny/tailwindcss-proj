@@ -10,7 +10,7 @@ function UseFetch() {
           setLoading(true)
             try{
               const response = await fetch(url);
-              if (!response){
+              if (!response.ok){
               throw new Error (response.status)
             }
             const result = await response.json();
@@ -25,10 +25,10 @@ function UseFetch() {
      }, [url])
   return (
     
-     <div className="container mx-auto p-6 mt-14">
+     <div className="container mx-auto p-6 mt-14 h-screen">
       <div className="flex justify-center flex-wrap">
-        {error && <p className='text-red text-4xl font-mono'> {error}</p>}
-        {loading && <img className='w-10 size-15 animate-accordion-down' src={loadingImg}/> }
+        {error && <p className='text-red-600 text-4xl font-mono'> {error}</p>}
+        {loading && <img className='w-30 size-30 animate-accordion-down' src={loadingImg}/> }
         {products.map((prod, index) => (
           <div 
             key={`product-${prod.id}-${index}`} 
